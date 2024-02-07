@@ -13,6 +13,10 @@ a {
 .section-title h2 {
   text-shadow: 1px 1px 2px #4444;
 }
+
+h2 {
+  color: #990033;
+}
 /*****************************
     NavBar
 ******************************/
@@ -143,7 +147,7 @@ header nav ul.action-menu .nav-item .nav-link {
 
 .about .content ul i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #990033;
   position: absolute;
   left: 0;
   top: 2px;
@@ -164,7 +168,7 @@ header nav ul.action-menu .nav-item .nav-link {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#990033 50%, rgb(250, 2, 85) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -205,14 +209,14 @@ header nav ul.action-menu .nav-item .nav-link {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 176, 59, 0.7);
+  border: 5px solid rgb(254, 255, 236);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #ffb03b;
+  border-left: 15px solid #990033;
   transform: scale(20);
 }
 
@@ -232,6 +236,19 @@ header nav ul.action-menu .nav-item .nav-link {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
+}
+.about .about_btn:hover,
+.send-btn:hover {
+  color: #990033;
+  border: 1px solid #990033;
+  background-color: #feffec;
+}
+
+.staff-pic img {
+  border-radius: 50%;
+}
+.staff-pic {
+  background-color: #feffec;
 }
 
 @media (max-width: 1024px) {
