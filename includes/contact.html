@@ -1,0 +1,79 @@
+<div class="container mb-5 mt-7 ">
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center text-cursive my-4">Contact us</h2>
+        <!--Section description-->
+        <!--Grid row-->
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-md-0 mb-5 contact-box">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="firstname" class="">First name</label>
+                                <input type="text" id="firstname" name="firstname" class="form-control" required>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="lastname" class="">Last name</label>
+                                <input type="text" id="lastname" name="lastname" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="emailinfo" class="">Email</label>
+                                <input type="email" id="emailinfo" name="email" class="form-control" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <label for="message">Your message</label>
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left mt-4">
+                    <a class="btn btn-danger send-btn"
+                        onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 text-center">
+                <iframe src="https://maps.google.com/maps?q=freetown&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" width="600" height="320px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+</div>
