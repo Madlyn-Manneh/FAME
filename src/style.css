@@ -42,17 +42,9 @@ header nav ul.action-menu .nav-item .nav-link {
 @media (max-width: 567px) {
 }
 /*****************************
-    Login & Registration Form
+    carousel
 ******************************/
-.form-login,
-.form-register {
-  bottom: 45% !important;
-}
-.form-head {
-  background-color: #990033;
-  color: #feffec;
-  max-width: 100%;
-}
+
 .card-body {
   border: 1px solid #990033;
 }
@@ -114,9 +106,10 @@ header nav ul.action-menu .nav-item .nav-link {
     font-size: 13px;
   }
 }
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
+/*****************************
+    About
+******************************/
 
 .about .content {
   padding: 0 80px;
@@ -298,6 +291,15 @@ header nav ul.action-menu .nav-item .nav-link {
   }
 }
 
+/*****************************
+    classes
+******************************/
+.mask {
+  background-color: rgba(251, 251, 251, 0.15);
+}
+.card-body {
+  border: none;
+}
 .course .box {
   padding: 10px 10px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -312,6 +314,15 @@ header nav ul.action-menu .nav-item .nav-link {
   font-weight: 700;
   color: #ffcf88;
 }
+/*****************************
+    contact
+******************************/
+.contact-box {
+  background: #fff;
+}
+/*****************************
+    footer
+******************************/
 footer {
   background: #990033;
   margin-left: 0%;
@@ -376,6 +387,10 @@ footer {
   color: #fff;
   text-decoration: none;
 }
+
+/*****************************
+    copyright
+******************************/
 .copyright {
   background: #908c8c;
   padding: 8px 40px;
@@ -383,4 +398,9 @@ footer {
 }
 .copyright a {
   text-align: center;
+}
+.copyright p {
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
 }
