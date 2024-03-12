@@ -321,6 +321,16 @@ header nav ul.action-menu .nav-item .nav-link {
   background: #fff;
 }
 /*****************************
+    Registration
+******************************/
+.register marquee {
+  color: #990033;
+}
+.register a {
+  color: #990033;
+  text-decoration: underline;
+}
+/*****************************
     footer
 ******************************/
 footer {
