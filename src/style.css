@@ -38,20 +38,18 @@ header nav ul.action-menu .nav-item .nav-link {
   border: none !important;
   border-radius: none !important;
 }
-
-@media (max-width: 567px) {
+/* Custom CSS to change the color of the active element */
+.navbar-nav .nav-link.active {
+  color: #990033;
 }
+
 /*****************************
     carousel
 ******************************/
-
-.card-body {
-  border: 1px solid #990033;
-}
 .carousel-item {
   width: 100%;
   height: 100vh !important;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -96,11 +94,13 @@ header nav ul.action-menu .nav-item .nav-link {
 @media (max-width: 768px) {
   .carousel-caption h5 {
     font-size: 38px;
+    height: 80vh !important;
   }
 }
 @media (max-width: 577px) {
   .carousel-caption h5 {
     font-size: 25px;
+    height: 60vh !important;
   }
   .carousel-caption p {
     font-size: 13px;
@@ -238,12 +238,6 @@ header nav ul.action-menu .nav-item .nav-link {
   animation: none;
   border-radius: 0;
 }
-.about .about_btn:hover,
-.send-btn:hover {
-  color: #990033;
-  border: 1px solid #990033;
-  background-color: #feffec;
-}
 
 .staff-pic img {
   border-radius: 50%;
@@ -290,6 +284,16 @@ header nav ul.action-menu .nav-item .nav-link {
     opacity: 0;
   }
 }
+/*****************************
+    Buttons
+******************************/
+.about .about_btn:hover,
+.send-btn:hover,
+.card-body .card-btn:hover {
+  color: #990033;
+  border: 2px solid #990033;
+  background-color: #feffec;
+}
 
 /*****************************
     classes
@@ -307,6 +311,7 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 .course .box img {
   border-radius: 5px;
+  width: 100%;
 }
 .course .box span {
   display: block;
@@ -314,11 +319,16 @@ header nav ul.action-menu .nav-item .nav-link {
   font-weight: 700;
   color: #ffcf88;
 }
+
 /*****************************
     contact
 ******************************/
 .contact-box {
   background: #fff;
+}
+iframe {
+  width: 100%;
+  height: 320px;
 }
 /*****************************
     Registration
