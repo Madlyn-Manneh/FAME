@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fame || Online Registration</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./src/style.css">
+
+</head>
+
+<body>
+
+    <a href="register.html">Go Back</a>
+    <div class="container r-form">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="text-center font-weight-bold">Registration Form</h2>
+
+                <form class="form-horizontal form-main" id="registration-form" name="registration-form"
+                    action="https://api.web3forms.com/submit" method="POST">
+                    <div class="col-md-offset-1">
+                        <input type="hidden" name="access_key" value="d43d9fee-aabd-4070-bb13-654cbac8416b">
+                        <h3>Student Information</h3>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="name">Student Name:</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                    name="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob" class="control-label col-sm-2">Date of Birth:</label>
+
+                            <div class="col-sm-3">
+                                <select class="form-control" id="dob_month">
+                                    <option value="">Month</option>
+                                    <option value="01">Jan</option>
+                                    <option value="02">Feb</option>
+                                    <option value="03">Mar</option>
+                                    <option value="04">Apr</option>
+                                    <option value="05">May</option>
+                                    <option value="06">Jun</option>
+                                    <option value="07">Jul</option>
+                                    <option value="08">Aug</option>
+                                    <option value="09">Sep</option>
+                                    <option value="10">Oct</option>
+                                    <option value="11">Nov</option>
+                                    <option value="12">Dec</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <select class="form-control" id="dob_day">
+                                    <option value="">Day</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-3">
+                                <select class="form-control" id="dob_year">
+                                    <option value="">Year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label  col-sm-2">Gender:</label>
+                            <div class="col-sm-offset-0 col-sm-2">
+                                <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                                <label class="form-check-label" for="male">Male</label>
+                            </div>
+                            <div class="col-sm-offset-0 col-sm-2">
+                                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                <label class="form-check-label" for="female">Female</label>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="add">Address:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="add" placeholder="Enter Address" name="add">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="city" class="control-label col-sm-2">City:</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" placeholder="City">
+                            </div>
+
+                            <label for="province" class="control-label col-sm-2">Province: </label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" placeholder="Province">
+                            </div>
+                        </div>
+
+                        <h3>Parent/Guardian Information</h3>
+                        <div class="form-group">
+                            <label for="guardian_name" class="control-label col-sm-2">Parent/Guardian Name:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="guardian_name"
+                                    placeholder="Enter parent/guardian name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="relationship" class="control-label col-sm-2">Relationship to Student:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="relationship"
+                                    placeholder="Enter relationship">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="occupation" class="control-label col-sm-2">Occupation:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="occupation" placeholder="Enter occupation">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile" class="control-label col-sm-2">Mobile:</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" placeholder="mobile">
+                            </div>
+
+                            <label for="email" class="control-label col-sm-2">Email: </label>
+                            <div class="col-sm-3">
+                                <input type="email" class="form-control" placeholder="example@mail.com">
+                            </div>
+                        </div>
+
+                        <h3>Medical Information</h3>
+                        <div class="form-group">
+                            <label for="allergies" class="control-label col-sm-2">Allergies (if any):</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="allergies" placeholder="Enter allergies">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="special_needs" class="control-label col-sm-2">Special Needs (if any):</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="special_needs"
+                                    placeholder="Enter special needs">
+                            </div>
+                        </div>
+
+                        <h3>Educational Background</h3>
+                        <div class="form-group">
+                            <label for="previous_school" class="control-label col-sm-2">Previous School (if
+                                applicable):</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="previous_school"
+                                    placeholder="Enter previous school">
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="reason_for_leaving" class="control-label col-sm-2">Reason for Leaving:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="reason_for_leaving"
+                                    placeholder="Enter reason for leaving">
+                            </div>
+                        </div>
+                        <h3>Documents to be Attached</h3>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="birth_certificate">
+                                Birth Certificate
+                            </label>
+                            <div class="col-sm-9">
+                                <input class="form-control" type="file" id="birth_certificate">
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <label class="control-label col-sm-2" for="school_records">
+                                Previous School Records (If Applicable)
+                            </label>
+                            <div class="col-sm-9">
+                                <input class="form-control" type="file" id="school_records">
+                            </div>
+                        </div>
+                        <div class="form">
+                            <label class="control-label col-sm-2" for="immunization_records">
+                                Immunization Records
+                            </label>
+                            <div class="col-sm-9">
+                                <input class="form-control" type="file" id="immunization_records">
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <div class="col-sm-offset-5 col-sm-10 mt-5">
+                                <button type="submit" class="btn btn-danger r-online">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <section id="crights"></section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
