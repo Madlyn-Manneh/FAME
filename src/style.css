@@ -176,7 +176,7 @@ header nav ul.action-menu .nav-item .nav-link {
   min-height: 500px;
   position: relative;
 }
-
+/*
 .about .play-btn {
   width: 94px;
   height: 94px;
@@ -249,7 +249,7 @@ header nav ul.action-menu .nav-item .nav-link {
   animation: none;
   border-radius: 0;
 }
-
+*/
 .staff-pic img {
   border-radius: 50%;
 }
