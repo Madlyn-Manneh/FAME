@@ -239,12 +239,14 @@ header nav ul.action-menu .nav-item .nav-link {
   border-radius: 0;
 }
 */
+
 .vision {
   height: 250px;
   width: 400px;
   max-width: 50%;
 }
-.mission {
+.mission,
+.logo {
   height: 250px;
   width: 400px;
   max-width: 50%;
@@ -299,7 +301,13 @@ header nav ul.action-menu .nav-item .nav-link {
     opacity: 0;
   }
 }
-
+@media (max-width: 767) {
+  .vision,
+  .mission,
+  .logo {
+    margin: 50% auto;
+  }
+}
 /*****************************
     classes
 ******************************/
