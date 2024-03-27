@@ -133,14 +133,13 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .about .content h4 {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
   margin-top: 5px;
 }
 
 .about .content p {
   font-size: 15px;
-  color: #848484;
 }
 
 .about .content ul {
@@ -154,17 +153,7 @@ header nav ul.action-menu .nav-item .nav-link {
 
 .about .content ul li {
   position: relative;
-  padding-left: 26px;
 }
-
-.about .content ul i {
-  font-size: 20px;
-  color: #990033;
-  position: absolute;
-  left: 0;
-  top: 2px;
-}
-
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -250,6 +239,21 @@ header nav ul.action-menu .nav-item .nav-link {
   border-radius: 0;
 }
 */
+.vision {
+  height: 250px;
+  width: 400px;
+  max-width: 50%;
+}
+.mission {
+  height: 250px;
+  width: 400px;
+  max-width: 50%;
+}
+.motto {
+  font-size: 24px;
+  font-weight: bold;
+  color: #990033;
+}
 .staff-pic img {
   border-radius: 50%;
 }
