@@ -311,13 +311,25 @@ header nav ul.action-menu .nav-item .nav-link {
 /*****************************
     classes
 ******************************/
-.mask {
-  background-color: rgba(251, 251, 251, 0.15);
+.statement p,
+.card-body p {
+  line-height: 1.5em;
 }
 .card-body {
   border: none;
 }
-.course .box {
+.info,
+.card-body h3,
+.card-body h4,
+.card-body h5 {
+  color: #990033;
+}
+.mask {
+  background-color: rgba(251, 251, 251, 0.15);
+}
+.card-body h3,
+.card-body h4,
+.card-body h5 .course .box {
   padding: 10px 10px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;

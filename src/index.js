@@ -33,3 +33,10 @@ var currentYear = new Date().getFullYear();
 for (var i = currentYear; i >= currentYear - 100; i--) {
   $("#dob_year").append('<option value="' + i + '">' + i + "</option>");
 }
+//Model
+var myModal = document.getElementById("myModal");
+var myInput = document.getElementById("myInput");
+
+myModal.addEventListener("shown.bs.modal", function () {
+  myInput.focus();
+});
